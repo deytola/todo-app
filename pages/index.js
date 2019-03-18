@@ -33,7 +33,7 @@ class Index extends Component {
     render(){
         return (
             <div>
-                <p>Hello Adetola!</p>
+                <h1>TODO APP</h1>
                 <form className="Index" onSubmit={this.onSubmit}>
                     <input value={this.state.term} onChange={this.onChange}/>
                     <button>Submit</button>
